@@ -1,0 +1,55 @@
+html, body{
+	width:100%;
+	height:100%;
+	margin: 0;
+}
+.flexboxik{
+	display: flex;
+	height:100%;
+
+}
+.flexboxik .menu1{
+	align-items: stretch;
+	width: 300px;
+	background-color: yellow;
+	flex-shrink: 0;
+}
+.flexboxik .menu2{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	
+	
+}
+.flexboxik .submenu1{
+	height: 200px;
+	width: 100%;
+	background-color: blue;
+	
+}
+.flexboxik .submenu3{
+	
+	background-color: cornsilk;
+	width: calc(100% - 90px);
+}
+.flexboxik .submenu4{
+	background-color: red;
+	width: 90px;
+	
+    height: calc(100% - 200px);
+    flex-shrink: 0;
+}
+.flexboxik .menu2 .submenu5{
+	
+	height: 131px;
+	background-color: green;
+	width: 100%;
+	
+}
+.flexboxik .menu2 .test{
+	display: flex;
+	height: calc(100% - 131px);
+	width: 100%;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
